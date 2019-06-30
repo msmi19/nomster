@@ -70,12 +70,6 @@ blockquote p {
   display: inline;
 }
 
-.carousel-item.active, 
-.carousel-item-next, 
-.carousel-item-prev {
-  display: block;
-}
-
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
   max-height: 550px;
   width: 100%;
