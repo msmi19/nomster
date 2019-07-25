@@ -29,7 +29,7 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #E3E85A;
+  color: #437AAA;
   font-family: 'nobileitalic', sans-serif;
   font-size: 26px;
 }
@@ -40,6 +40,7 @@ body {
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
 }
+
 
 #map {
   height: 300px;
@@ -88,4 +89,22 @@ blockquote p {
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: #437AAA;
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  border-radius: 5px;
+}
+
+.place-photo img {
+  width: 260px;
+  height: 180px;
 }
